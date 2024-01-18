@@ -1,0 +1,115 @@
+
+main {
+  margin: auto;
+  justify-content: center;
+}
+
+/* *************************************************************************************** */
+/* ***********************************MAP*STYLING***************************************** */
+/* *************************************************************************************** */
+
+
+.info {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; 
+}
+    
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+  
+.legend {
+    text-align: left;
+    line-height: auto;
+    color: #555;
+    }
+    
+.wrapper input[type="color"] {
+  float: left;
+  margin-right: auto;
+  opacity: 0.7;
+  border: none;
+  padding: 0;
+  outline: none;
+  height: 5vh;
+  width: 2.5vw;
+  border-color: transparent;
+}
+
+
+.wrapper input[type="color"]:hover {
+  opacity: 1;
+  outline: white;
+}
+
+.leaflet-container {
+  position: flex;
+  height: 98vh;
+  width: 98vw;
+}
+
+
+.dim {
+  opacity: 0.3;
+  filter: brightness(10%);
+}
+
+
+.highlight {
+  opacity: 1;
+  filter: brightness(150%);
+}
+  /*filter: drop-shadow(0px 0px 5px rgb(255 255 255 / 1));
+}*/
+
+
+
+/* *************************************************************************************** */
+/* ***********************************SLIDER********************************************** */
+/* *************************************************************************************** */
+
+
+.wrapper {
+  z-index: 10;
+  float: left;
+}
+section.range-slider {
+    position: relative;
+    width: 9em;
+    height: 0em;
+    text-align: center;
+    float: right;
+    margin-top: -1em;
+    margin-left: 2em;
+}
+
+
+section.range-slider:focus {
+  border: blue;
+}
+
+
+.hide {
+  visibility: hide;
+}
+
+
+#selector {
+   background: rgba(255, 255, 255, 0.5);
+}
+
+.pallet {      
+  text-align: center;
+  font: 1em Helvetica, sans-serif;
+  border-radius: 10%;
+  border: none;
+  background: transparent;
+}
+
+
+
